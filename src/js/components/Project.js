@@ -15,18 +15,27 @@ const Project = () => {
         projects.map((project) => (
           <div className="main-section__project" key={project.id}>
             <header>
-              <a href={project.link}>
+              <a href={project.link} rel="noreferrer" target="_blank">
                 <h3>{project.name}</h3>
               </a>
               <time className="worked-since">{project.workedSince}</time>
             </header>
-            <a href={project.link} className="main-section__project-image">
+            <a
+              href={project.link}
+              className="main-section__project-image"
+              rel="noreferrer"
+              target="_blank"
+            >
               <img src={project.imgSrc} alt={project.imgAlt} />
             </a>
             <div className="description">
               <h4>
                 Provision of services for
-                <a href="https://www.3bweb.com/">
+                <a
+                  href="https://www.3bweb.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <span>3B Digital</span>
                 </a>
               </h4>

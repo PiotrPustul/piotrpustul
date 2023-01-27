@@ -8,20 +8,27 @@ const About = () => {
         <div className="main-section__about-container">
           <h3>Intro</h3>
           <p>
-            I am a novice Programmer who does not lack enthusiasm. I enjoy
-            challenges, solving problems and working in a team. Throughout my
-            career, I learned how to work under pressure and how to solve
-            problems effectively. I am a fast learner keen to grow and develop
-            my career further. My greatest pleasure is creating applications in
-            React. I usually style these applications using Sass and while
-            keeping in mind the basic principle of mobile first.
+            I learned how to work, discuss and solve problems in a team, use
+            different project management tools such as <span> ClickUp</span>,
+            <span> Zendesk</span>, <span> Jira</span>,
+            <span> Toggl Track. </span>I created and developed various projects
+            using <span> HTML</span>,<span> SCSS</span>,<span> JavaScript</span>
+            ,<span> JQuery</span>,<span> React</span>,<span> Redux</span>,
+            <span> PHP</span>,<span> Twig</span>,<span> Pantheon</span>,
+            <span> Drupal</span>. Being close to clients, I learned how to
+            develop relationships, and offer technical guidance and solutions to
+            understand their needs.
           </p>
         </div>
         <div className="main-section__about-container">
           <h3>Education</h3>
           <ul>
             <li>
-              <a href="https://coderslab.com/en">
+              <a
+                href="https://coderslab.com/en"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <span>Coders Lab - IT Academy - Javascript Developer</span>
                 <br />
               </a>
@@ -29,6 +36,8 @@ const About = () => {
               <br />
               Group workshop simulating the everyday work of a programmer with
               simultaneous preparation for activities in the Scrum methodology.
+              Preparation to know the basics of JavaScript, React, Redux, HTML
+              and CSS/SCSS, and preparation to use Linux, macOS and Git.
             </li>
             <li>
               <span>
@@ -36,71 +45,62 @@ const About = () => {
                 Technician
               </span>
               <br />
-              High School - Czestochowa Poland, September 2007 - June 2011
+              A-Level School • Czestochowa Poland • September 2007 - June 2011
             </li>
           </ul>
         </div>
         <div className="main-section__about-container">
           <h3>Work Experience</h3>
-          <p>
-            I learned how to work, discuss and solve problems in a team, use
-            different project management tools such as <span> ClickUp</span>,
-            <span> Zendesk</span>, <span> Jira</span>, <span> Toggl Track</span>
-            I created and developed various projects using <span> HTML</span>,
-            <span> SCSS</span>,<span> JavaScript</span>,<span> JQuery</span>,
-            <span> React</span>,<span> Redux</span>,<span> PHP</span>,
-            <span> Twig</span>,<span> Joomla</span>,<span> Drupal</span>. Being
-            close to clients, I learned how to develop relationships, offer
-            technical guidance and solutions to understand their needs.
-          </p>
           <ul>
             <li>
-              <a href="https://www.3bweb.com/">
+              <a href="https://www.3bweb.com/" rel="noreferrer" target="_blank">
                 <span>3B Digital</span>
               </a>
               <br />
-              Web Developer, September 2021 - September 2022
+              Web Developer • London, United Kingdom • September 2021 -
+              September 2022
               <ul>
                 <li>
-                  Scopes, plans, develops, tests new features for existing
-                  projects, and participates in the full life-cycle of new
-                  projects
+                  Scopes, plans, develops, and test new features for existing
+                  projects, and participates in the entire life-cycle of new
+                  projects.
                 </li>
                 <li>
-                  Participates in deployment processes (development to test, to
-                  staging, to production)
-                </li>
-                <li>
-                  Offers technical guidance, communication, and solutions to
-                  submitted tasks
-                </li>
-                <li>
-                  Assists in implementation services, and solution testing, and
-                  participates in solution design
-                </li>
-                <li>
-                  Sticking to the team's designated plan, discussing and solving
-                  problems together
+                  Implementing projects based on mock-ups provided by the
+                  Graphic Designers' team.
                 </li>
                 <li>
                   Creation and development of various projects using HTML, SCSS,
-                  JavaScript, JQuery, React, Redux, PHP, Twig, Drupal
+                  JavaScript, JQuery, React, Redux, PHP, Twig, and Drupal 7, 8,
+                  9.
                 </li>
                 <li>
-                  Implementing projects based on mockups provided by the Graphic
-                  Designers team
+                  Sticking to the team's designated plan, discussing and solving
+                  problems together.
+                </li>
+                <li>
+                  Assists in implementation services, and solution testing and
+                  participates in solution design.
+                </li>
+                <li>
+                  Offers technical guidance, communication, and solutions to
+                  submitted tasks.
                 </li>
               </ul>
             </li>
             <li>
-              <a href="https://hellofair.io/">
+              <a href="https://hellofair.io/" rel="noreferrer" target="_blank">
                 <span>Fair</span>
               </a>
               <br />
-              Web Developer, May 2021 - July 2021
+              Web Developer • Oxford, United Kingdom • May 2021 - July 2021
               <ul>
+                <li>Assisted in developing the company's website.</li>
+                <li>Provided ongoing website maintenance.</li>
                 <li>
-                  Work on constructing the layout of the company's website
+                  Successfully identified, diagnosed, and fixed website
+                  problems, including broken links, typographical errors, and
+                  formatting issues.
                 </li>
               </ul>
             </li>
@@ -108,20 +108,47 @@ const About = () => {
               <a href="/">
                 <span>Freelancer</span> <br />
               </a>
-              Web Developer, September 2020 - April 2021
+              Web Developer • London, United Kingdom • September 2020 - May 2021
               <ul>
                 <li>
-                  Development of own projects based on JavaScript/React
-                  technology with the use of HTML, CSS/SCSS
+                  After graduating from Coders Lab, I developed my knowledge by
+                  working on my own projects, solving problems and mistakes,
+                  looking for tips and tricks, browsing the internet and Stack
+                  Overflow, and using problems and solutions that someone had
+                  before me. In addition, on educational platforms such as Udemy
+                  and Pluralsight. I broadened my knowledge of the backend and
+                  databases.
                 </li>
               </ul>
             </li>
             <li>
-              <a href="https://www.youngs.co.uk/">
+              <a
+                href="https://www.youngs.co.uk/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <span>Young & Co Brewery </span>
                 <br />
               </a>
-              Pub Assistant Manager, November 2018 - May 2021
+              Assistant Manager • London, United Kingdom • November 2018 - May
+              2021
+              <ul>
+                <li>
+                  Organisation and division of labour within the team have
+                  resulted in better service and attitude to customers
+                </li>
+                <li>Monitor and coordinate store inventory</li>
+                <li>Supervise and motivate staff to perform their best</li>
+                <li>Ensuring the smooth running of the computer system</li>
+                <li>Train and assist a team in using the system</li>
+              </ul>
+            </li>
+            <li>
+              <a href="/">
+                <span>Small Business Owner</span>
+                <br></br>
+              </a>
+              Częstochowa, Poland • January 2015 - June 2018
               <ul>
                 <li>
                   Organisation and division of labour within the team have
@@ -138,14 +165,13 @@ const About = () => {
         <div className="main-section__about-container">
           <h3>I Like</h3>
           <ul>
-            <li>Dance</li>
+            <li>Dancing</li>
             <li>Gym</li>
-            <li>Swim</li>
+            <li>Swimming</li>
             <li>Meditation</li>
-            <li>Books & Audiobooks</li>
-            <li>Travel</li>
+            <li>Reading</li>
+            <li>Traveling</li>
             <li>Music</li>
-            <li>Learn new things</li>
           </ul>
         </div>
         <div className="main-section__about-container">

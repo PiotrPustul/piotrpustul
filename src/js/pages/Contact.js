@@ -8,8 +8,8 @@ const Contact = () => {
       </div>
       <div className="main-section__context">
         <p>Feel free to get in touch. You can email me at:</p>
-        <a href="mailto:piotrpustul1@gmail.com">
-          <span>Piotrpustul1@gmail.com</span>
+        <a href="mailto:piotrpustul@protonmail.ch">
+          <span>Piotrpustul@protonmail.ch</span>
         </a>
         <FooterIcons />
       </div>
