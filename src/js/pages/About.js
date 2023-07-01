@@ -34,10 +34,7 @@ const About = () => {
               </a>
               Warsaw Poland, December 2019 - June 2020
               <br />
-              Group workshop simulating the everyday work of a programmer with
-              simultaneous preparation for activities in the Scrum methodology.
-              Preparation to know the basics of JavaScript, React, Redux, HTML
-              and CSS/SCSS, and preparation to use Linux, macOS and Git.
+              Participated in a comprehensive group workshop simulating real-world programming scenarios while integrating Scrum methodology. Acquired foundational knowledge in JavaScript, React, Redux, HTML, CSS/SCSS, and proficiently utilized Linux, macOS, and Git for seamless project management. Prepared to excel in dynamic programming environments.
             </li>
             <li>
               <span>
@@ -89,7 +86,7 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href="https://hellofair.io/" rel="noreferrer" target="_blank">
+              <a href="https://www.linkedin.com/company/hellofair/" rel="noreferrer" target="_blank">
                 <span>Fair</span>
               </a>
               <br />
@@ -105,7 +102,7 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <span>Freelancer</span> <br />
               </a>
               Web Developer • London, United Kingdom • September 2020 - May 2021
@@ -144,7 +141,7 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href="/">
+              <a href="#">
                 <span>Small Business Owner</span>
                 <br></br>
               </a>
@@ -165,13 +162,28 @@ const About = () => {
         <div className="main-section__about-container">
           <h3>I Like</h3>
           <ul>
-            <li>Dancing</li>
+            <li>Dance</li>
+            <li>Bouldering</li>
+            <li>SCUBA Diving</li>
+            <li>Meditation</li>
+            <li>Chess</li>
+            <li>Personal Development</li>
             <li>Gym</li>
             <li>Swimming</li>
-            <li>Meditation</li>
-            <li>Reading</li>
             <li>Traveling</li>
-            <li>Music</li>
+          </ul>
+        </div>
+        <div className="main-section__about-container">
+          <h3>EXPERTISE</h3>
+          <ul>
+            <li>Attention to Detail</li>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Collaboration</li>
+            <li>Critical Thinking</li>
+            <li>Time Management</li>
+            <li>Quantitative Skills</li>
+            <li>Emotional Intelligence</li>
           </ul>
         </div>
         <div className="main-section__about-container">

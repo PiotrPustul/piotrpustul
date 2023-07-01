@@ -19,7 +19,7 @@ const Sidebar = () => {
 
       <section id="sidebar-about">
         <h2>About</h2>
-        <p>
+        {/* <p>
           I learned how to work, discuss and solve problems in a team, use
           different project management tools such as
           <span> ClickUp</span>,<span> Zendesk</span>, <span> Jira</span>,
@@ -30,6 +30,9 @@ const Sidebar = () => {
           <span> Pantheon</span>, . Being close to clients, I learned how to
           develop relationships, and offer technical guidance and solutions to
           understand their needs.
+        </p> */}
+        <p>
+          Motivated by new challenges, I thrive outside my comfort zone. Strong organizational and analytical skills make me a  valuable asset to any team. I adapt quickly and excel in diverse environments, whether working independently or  collaboratively. Seeking growth opportunities, I am poised to contribute and learn in dynamic settings.
         </p>
       </section>
       <Footer />
