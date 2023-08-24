@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom';
+
 const About = () => {
   return (
     <>
-      <div className="main-section__heading">
+      <div className='main-section__heading'>
         <h2>About me</h2>
       </div>
-      <div className="main-section__context">
-        <div className="main-section__about-container">
+      <div className='main-section__context'>
+        <div className='main-section__about-container'>
           <h3>Intro</h3>
           <p>
             I learned how to work, discuss and solve problems in a team, use
@@ -20,21 +22,26 @@ const About = () => {
             understand their needs.
           </p>
         </div>
-        <div className="main-section__about-container">
+        <div className='main-section__about-container'>
           <h3>Education</h3>
           <ul>
             <li>
               <a
-                href="https://coderslab.com/en"
-                rel="noreferrer"
-                target="_blank"
+                href='https://coderslab.com/en'
+                rel='noreferrer'
+                target='_blank'
               >
                 <span>Coders Lab - IT Academy - Javascript Developer</span>
                 <br />
               </a>
               Warsaw Poland, December 2019 - June 2020
               <br />
-              Participated in a comprehensive group workshop simulating real-world programming scenarios while integrating Scrum methodology. Acquired foundational knowledge in JavaScript, React, Redux, HTML, CSS/SCSS, and proficiently utilized Linux, macOS, and Git for seamless project management. Prepared to excel in dynamic programming environments.
+              Participated in a comprehensive group workshop simulating
+              real-world programming scenarios while integrating Scrum
+              methodology. Acquired foundational knowledge in JavaScript, React,
+              Redux, HTML, CSS/SCSS, and proficiently utilized Linux, macOS, and
+              Git for seamless project management. Prepared to excel in dynamic
+              programming environments.
             </li>
             <li>
               <span>
@@ -46,11 +53,11 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="main-section__about-container">
+        <div className='main-section__about-container'>
           <h3>Work Experience</h3>
           <ul>
             <li>
-              <a href="https://www.3bweb.com/" rel="noreferrer" target="_blank">
+              <a href='https://www.3bweb.com/' rel='noreferrer' target='_blank'>
                 <span>3B Digital</span>
               </a>
               <br />
@@ -86,7 +93,11 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/hellofair/" rel="noreferrer" target="_blank">
+              <a
+                href='https://www.linkedin.com/company/hellofair/'
+                rel='noreferrer'
+                target='_blank'
+              >
                 <span>Fair</span>
               </a>
               <br />
@@ -102,9 +113,9 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href="#">
+              <Link to='/about'>
                 <span>Freelancer</span> <br />
-              </a>
+              </Link>
               Web Developer • London, United Kingdom • September 2020 - May 2021
               <ul>
                 <li>
@@ -120,9 +131,9 @@ const About = () => {
             </li>
             <li>
               <a
-                href="https://www.youngs.co.uk/"
-                rel="noreferrer"
-                target="_blank"
+                href='https://www.youngs.co.uk/'
+                rel='noreferrer'
+                target='_blank'
               >
                 <span>Young & Co Brewery </span>
                 <br />
@@ -141,7 +152,7 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href="#">
+              <a href='#'>
                 <span>Small Business Owner</span>
                 <br></br>
               </a>
@@ -159,7 +170,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="main-section__about-container">
+        <div className='main-section__about-container'>
           <h3>I Like</h3>
           <ul>
             <li>Dance</li>
@@ -173,7 +184,7 @@ const About = () => {
             <li>Traveling</li>
           </ul>
         </div>
-        <div className="main-section__about-container">
+        <div className='main-section__about-container'>
           <h3>EXPERTISE</h3>
           <ul>
             <li>Attention to Detail</li>
@@ -186,7 +197,7 @@ const About = () => {
             <li>Emotional Intelligence</li>
           </ul>
         </div>
-        <div className="main-section__about-container">
+        <div className='main-section__about-container'>
           <h3>Location</h3>
           <p>Wimbledon, London, United Kingdom</p>
         </div>

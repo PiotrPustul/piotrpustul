@@ -1,7 +1,7 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 export const hamburgerSlice = createSlice({
-  name: "hamburger",
+  name: 'hamburger',
   initialState: {
     open: false,
   },
