@@ -152,10 +152,10 @@ const About = () => {
               </ul>
             </li>
             <li>
-              <a href='#'>
+              <Link to='/about'>
                 <span>Small Business Owner</span>
                 <br></br>
-              </a>
+              </Link>
               Częstochowa, Poland • January 2015 - June 2018
               <ul>
                 <li>
